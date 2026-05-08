@@ -78,5 +78,5 @@ scripts/
 - [DONE] electron/preload.cjs — contextBridge
 - [DONE] scripts/dev-electron.mjs — Vite + Electron dev launcher
 - [DONE] npm run electron:dev — launches native Windows window
-- [TODO] Push to GitHub
+- [DONE] Push to GitHub
 - [TODO] Deploy to Vercel (optional)
