@@ -80,3 +80,7 @@ scripts/
 - [DONE] npm run electron:dev — launches native Windows window
 - [DONE] Push to GitHub
 - [TODO] Deploy to Vercel (optional)
+- [DONE] Break timer (5min after focus, auto-switch, ring color changes)
+- [DONE] Session counter (coffee cup icons, resettable)
+- [DONE] Timer settings (gear popover, configurable focus/break duration)
+- [DONE] Desktop notifications (Electron Notification API via IPC)

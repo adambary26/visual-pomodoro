@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require("electron");
+const { app, BrowserWindow, Notification, ipcMain } = require("electron");
 const path = require("node:path");
 
 const isDev = process.env.ELECTRON_DEV === "true";
@@ -30,6 +30,10 @@ function createWindow() {
     win = null;
   });
 }
+
+ipcMain.on("notify", (_, { title, body }) => {
+  new Notification({ title, body }).show();
+});
 
 app.whenReady().then(createWindow);
 
